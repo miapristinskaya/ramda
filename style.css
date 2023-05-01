@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 63px;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 94px;
+  margin-bottom: 40px;
+}
+
+.logo-blue-part {
+  color: #4bcaff;
+}
+
+.top-menu {
+  background-color: #35444f;
+  margin-bottom: 49px;
+}
+
+.top-menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.top-menu-item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  padding: 24px 40px 18px; /*я не зрозуміла, чому на макеті різні відступи зліва і справа, не зловила принцип, тож зробила по 40px*/
+}
+
+.top-menu-link {
+  color: #ffffff;
+}
+
+.top-menu-item:hover {
+  background-color: #222f3a;
+  cursor: pointer;
+}
