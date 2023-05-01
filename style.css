@@ -6,15 +6,15 @@ body {
 }
 
 .page-container {
-  max-width: 1280px;
+  max-width: 1280px; /*чи це можна задати body?*/
   margin: 0 auto;
   padding-top: 63px;
+  padding-bottom: 30px;
 }
 
 .logo {
   font-weight: 400;
   font-size: 80px;
-  line-height: 94px;
   margin-bottom: 40px;
 }
 
@@ -36,11 +36,10 @@ body {
 .top-menu-item {
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
   padding: 24px 40px 18px; /*я не зрозуміла, чому на макеті різні відступи зліва і справа, не зловила принцип, тож зробила по 40px*/
-}
+} /*АБО ВІДЦЕНТРУВАТИ МЕНЮШКУ, ПЕРЕДИВИТИСЯ УРОК*/
 
 .top-menu-link {
   color: #ffffff;
@@ -49,4 +48,42 @@ body {
 .top-menu-item:hover {
   background-color: #222f3a;
   cursor: pointer;
+}
+
+.page-footer {
+  background-color: rgba(99, 105, 110, 0.48);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 69px;
+}
+
+.bottom-menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.bottom-menu-item {
+  font-weight: 400;
+  font-size: 28px;
+  padding-right: 30px; /*АБО ГЕП ПОСТАВИТИ, АЛЕ ЧИ БУДЕ ПРАЦЮВАТИ В РІЗНИХ БРАУЗЕРАХ*/
+}
+
+.bottom-menu-link {
+  color: #0c1927;
+}
+
+.bottom-menu-link:hover {
+  color: #3181a6;
+  border-bottom: 1px solid #3181a6;
+  cursor: pointer;
+}
+
+.copyright {
+  color: #010101;
+  font-weight: 400;
+  font-size: 24px;
 }
