@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box; /*my point of view*/
 }
 
 /**
@@ -29,6 +30,9 @@ main {
   display: block;
 }
 
+ul {
+  padding: 0;
+}
 /**
  * Remove the gray background on active links in IE 10.
  */
@@ -36,6 +40,7 @@ main {
 a {
   background-color: transparent;
   text-decoration: none; /*my point of view*/
+  color: inherit; /*my point of view*/
 }
 
 /**

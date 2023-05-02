@@ -2,7 +2,6 @@
 
 body {
   font-family: Roboto;
-  box-sizing: border-box;
 }
 
 .page-container {
@@ -36,18 +35,75 @@ body {
 .top-menu-item {
   font-weight: 400;
   font-size: 24px;
+  color: #ffffff;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
   padding: 24px 40px 18px; /*я не зрозуміла, чому на макеті різні відступи зліва і справа, не зловила принцип, тож зробила по 40px*/
-} /*АБО ВІДЦЕНТРУВАТИ МЕНЮШКУ, ПЕРЕДИВИТИСЯ УРОК*/
-
-.top-menu-link {
-  color: #ffffff;
 }
 
 .top-menu-item:hover {
   background-color: #222f3a;
   cursor: pointer;
+}
+
+.page-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+  gap: 52px;
+}
+
+.aside-menu-list {
+  margin-top: 0;
+  border: 1px solid #000000;
+  display: flex;
+  width: 344px;
+  flex-direction: column;
+  align-items: stretch;
+  list-style: none;
+}
+
+.aside-menu-item {
+  font-weight: 400;
+  font-size: 27px;
+  color: #485863;
+  padding: 27px 0 27px 44px;
+}
+
+.aside-menu-link {
+  color: inherit;
+}
+
+.aside-menu-item:hover {
+  background-color: #dbdbdb;
+  color: #000000;
+  padding-left: 75px;
+  cursor: pointer;
+}
+
+.article-image-wrapper {
+  height: 529px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.article-image {
+  width: 36%;
+}
+
+.article-image:hover {
+  width: 46%;
+  transition: 1s ease-in-out;
+}
+
+.article-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2c2c2c;
 }
 
 .page-footer {
@@ -69,11 +125,8 @@ body {
 .bottom-menu-item {
   font-weight: 400;
   font-size: 28px;
-  padding-right: 30px; /*АБО ГЕП ПОСТАВИТИ, АЛЕ ЧИ БУДЕ ПРАЦЮВАТИ В РІЗНИХ БРАУЗЕРАХ*/
-}
-
-.bottom-menu-link {
   color: #0c1927;
+  padding-right: 30px; /*АБО ГЕП ПОСТАВИТИ, АЛЕ ЧИ БУДЕ ПРАЦЮВАТИ В РІЗНИХ БРАУЗЕРАХ*/
 }
 
 .bottom-menu-link:hover {
